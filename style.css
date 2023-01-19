@@ -1,0 +1,77 @@
+body {
+    font-family: comic sans ms;
+    background-image: url("https://c.tenor.com/b594CAqpw6MAAAAM/heman-hey.gif");
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: black;
+    text-shadow: -1px 1px #ef3550,
+        -2px 2px #f48fb1,
+        -3px 3px #7e57c2,
+        -4px 4px #2196f3,
+        -5px 5px #26c6da,
+        -6px 6px #43a047,
+        -7px 7px #eeff41,
+        -8px 9px #f9a825,
+        -9px 9px #ff5722;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌭</text></svg>") 16 0,auto;
+}
+
+.timeSlot {
+    font-weight: bolder;
+}
+
+header {
+    background-color: hotpink;
+}
+
+::placeholder {
+    color: white;
+    font-weight: lighter;
+}
+
+.row {
+    border: 1px solid hotpink;
+}
+
+.hour {
+    color: #000000;
+    font-size: 30px;
+    border-right: 1px solid hotpink;
+}
+
+.past {
+    background-color: grey;
+    color: white;
+}
+
+.present {
+    background-color: lightcoral;
+    color: white;
+}
+
+.future {
+    background-color: lightgreen;
+    color: white;
+}
+
+.saveBtn {
+    font-size: 50px;
+    border-radius: 10px;
+    border-radius: 0%;
+    color: white;
+}
+
+.saveBtn:hover {
+    transform: scale(1.5);
+    transform: rotate(720deg);
+    transition: all 1s ease-in-out 0s;
+}
+
