@@ -31,3 +31,5 @@ Javascript
  - Saves in cache
  - keeps track of time
  - changes colors based on local time
+
+![image](https://user-images.githubusercontent.com/119004668/213360224-5a2bd498-515a-4f59-9030-87d6a7b7e69a.png)
